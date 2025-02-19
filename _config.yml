@@ -1,0 +1,69 @@
+# Site settings
+title: BK Innovation Engineers
+email: https://formspree.io/f/myzklyky
+url: https://bkinoeng.github.io
+description: "BK Innovation Engineers is a mconsulting engineering practice, delivering a high standard of mechanical and fire services to the building industry."
+keywords: "Fire plan, fire engineer, sprinkler design,hvac, aircon design,ventilation, south africa,sans 10400 T,sans 10400 O,"
+skills: "Ventilation and Fire Prevention Consulting Engineers"
+meta_author: Henning Bryan
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through https://formspree.io/f/myzklyky
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 2c3e50 #FD6E8A
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary:  18bc9c #80B3FF
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Bryan Henning
+  #location: Cape Town, South Africa
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+#social:
+#  - title: twitter
+#    url: http://twitter.com/jekyllrb
+# - title: facebook
+#    url:
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Cape Town
+  - line: South Africa
+
+# Credits content
+credits: ''
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
